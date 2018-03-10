@@ -1,2 +1,2 @@
 # Pathfinding
-This program visually represents the process undergone by different path finding algorithms
+This program visually represents the process undrgone by both Dijkstra and A* (A star)
