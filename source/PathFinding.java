@@ -32,6 +32,7 @@ public class PathFinding {
 	//GENERAL VARIABLES
 	private int cells = 20;
 	private int delay = 30;
+	private int dense = .5;
 	private double density = (cells*cells)*.5;
 	private int startx = -1;
 	private int starty = -1;
@@ -292,6 +293,7 @@ public class PathFinding {
 		obstacles.addChangeListener(new ChangeListener() {
 			@Override
 			public void stateChanged(ChangeEvent e) {
+				dense = (double)obstacles.getValue()/100;
 				Update();
 			}
 		});
@@ -301,7 +303,7 @@ public class PathFinding {
 				JOptionPane.showMessageDialog(frame, "	                         Pathfinding\n"
 												   + "             Copyright (c) 2017-2018\n"
 												   + "                         Greer Viau\n"
-												   + "          Build Date:  March 10, 2018   ", "Credit", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
+												   + "          Build Date:  March 28, 2018   ", "Credit", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
 			}
 		});
 		
@@ -336,8 +338,7 @@ public class PathFinding {
 	}
 	
 	public void Update() {	//UPDATE ELEMENTS OF THE GUI
-		double n = (double)obstacles.getValue()/100;
-		density = (cells*cells)*n;
+		density = (cells*cells)*dense;
 		CSIZE = MSIZE/cells;
 		canvas.repaint();
 		cellsL.setText(cells+"x"+cells);
