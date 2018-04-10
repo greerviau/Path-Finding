@@ -1,5 +1,5 @@
 # Pathfinding
-This program visually demonstrates the process undrgone by both Dijkstra and A* (A star)
+This program visually demonstrates the process undrgone by and Dijkstra and A* (A star)
 
 
 ![pathfinding2](https://user-images.githubusercontent.com/36581610/38583616-91195a52-3ce1-11e8-9cb9-d614687e3dd8.PNG)
