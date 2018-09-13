@@ -2,6 +2,6 @@
 This program visually demonstrates the process undrgone by and Dijkstra and A* (A star)
 
 
-![pathfinding2](https://user-images.githubusercontent.com/36581610/38583616-91195a52-3ce1-11e8-9cb9-d614687e3dd8.PNG)
+![dijkstra](https://user-images.githubusercontent.com/36581610/45467008-59810e80-b6eb-11e8-9563-262a77309e6f.gif)
 
-![pathfinding4](https://user-images.githubusercontent.com/36581610/38583630-9db0f072-3ce1-11e8-8cca-60838d5e2bfa.PNG)
+![astar](https://user-images.githubusercontent.com/36581610/45467014-61d94980-b6eb-11e8-83e8-e8991d132342.gif)
