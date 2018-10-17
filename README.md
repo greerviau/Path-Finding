@@ -2,7 +2,7 @@
 
 
 ## Description
-This program visually demonstrates the process undrgone by and Dijkstra and A* (A star)
+This program provides a visual demonstration of the process undrgone by Dijkstra and A* (A star)
 
 ## Dijkstra
 Dijkstra's algorithm works by adding the starting node to a priority que. It then takes the top node in the priority que and looks at all of the nodes surrounding it. If the nodes are valid positions then they are added to the priority que and the top node in the que is deleted. These nodes that are added to the que also have a knowledge of what node they were explored from (ie. their parent node) This process is continued until a node is discovered with the same location as the finish node. From that node, a path is created by retracing the steps to the starting node. 
