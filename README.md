@@ -1,4 +1,4 @@
-# Pathfinding
+# Path Finding
 
 
 ## Description
