@@ -5,7 +5,7 @@
 This program provides a visual demonstration of the process undrgone by Dijkstra and A* (A star)
 
 ## Dijkstra
-Dijkstra's algorithm works by adding the starting node to a priority que. It then takes the top node in the priority que and looks at all of the nodes surrounding it. If the nodes are valid positions then they are added to the priority que and the top node in the que is deleted. These nodes that are added to the que also have a knowledge of what node they were explored from (ie. their parent node) This process is continued until a node is discovered with the same location as the finish node. From that node, a path is created by retracing the steps to the starting node. 
+Dijkstra's algorithm works by first adding the starting node to a priority que. It then takes the top node in the priority que and looks at all of the nodes surrounding it. If the nodes are valid positions then they are added to the priority que and the top node in the que is deleted. These nodes that are added to the que also have a knowledge of what node they were explored from (ie. their parent node) This process is continued until a node is discovered with the same location as the finish node. From that node, a path is created by retracing the steps to the starting node. 
 
 ![dijkstra](https://user-images.githubusercontent.com/36581610/45467345-158f0900-b6ed-11e8-907d-643e091c40a3.gif)
 
