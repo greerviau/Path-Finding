@@ -1,6 +1,5 @@
 # Path Finding
 
-
 ## Description
 This program provides a visual demonstration of the process undrgone by Dijkstra and A* (A star)
 
