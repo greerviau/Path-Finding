@@ -12,3 +12,7 @@ Dijkstra's algorithm works by first adding the starting node to a priority que. 
 A* works similarly to dijkstra by creating a priority que of nodes and then adding new nodes to the que by exploring the top node on the que. However in A* the nodes are placed into the que with a heuristic of distance to the finish node. This means that the node at the top of the que is always the node closest to the finish node.
 
 ![astar](https://user-images.githubusercontent.com/36581610/50039438-af25c980-0000-11e9-9fda-f96a2ee6cb2e.gif)
+
+## Draw a maze
+![drawmaze](https://user-images.githubusercontent.com/36581610/51815322-197f8a00-228e-11e9-80c9-b088d76b3ba2.gif)
+
