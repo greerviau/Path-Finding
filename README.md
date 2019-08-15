@@ -1,7 +1,7 @@
 # Path Finding
 
 ## Description
-This program provides a visual demonstration of the process undrgone by Dijkstra and A* (A star)
+This program provides a visual demonstration of the process undergone by Dijkstra and A* (A star)
 
 ### [YouTube Video](https://www.youtube.com/watch?v=xGdBwdd_FLc&t)
 
