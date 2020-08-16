@@ -32,7 +32,7 @@ public class PathFinding {
 	//GENERAL VARIABLES
 	private int cells = 20;
 	private int delay = 30;
-	private int dense = .5;
+	private double dense = .5;
 	private double density = (cells*cells)*.5;
 	private int startx = -1;
 	private int starty = -1;
